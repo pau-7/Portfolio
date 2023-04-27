@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.25em;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    box-shadow: 2px 2px 5px #c9c9c9;
+    background-color: #6096B4;
+    color: white;
+    margin: 16px;
+}
+button:hover{
+    background-color: #799cae;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(239, 239, 239);
+    color: rgb(87, 52, 169);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+header .nav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+header a:hover{
+    color: blueviolet;
+}
+.sobre-mi .container{
+    /* background-color: #9BA4B5; */
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.habilidades{
+    background-color: #24596c;
+    color: white;
+    text-align: center;
+}
+.habilidades .container{
+    padding: 100px 12px;
+}
+.habilidades p{
+    display: none;
+}
+.habilidades h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+.carta{
+    background-position: center center;
+    background-size: cover;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./port2.jpg);
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./port3.jpg);
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./port4.jpg);
+}
+.contactame .container{
+    text-align: center;
+    background-color: #9BA4B5;
+    height: 50vh;
+}
+.contactame h2{
+    color: #24596c;
+    padding-top: 45px;
+}
+.contactame ul{
+    margin: 12px 10px;
+    font-weight: bold;
+}
+.contactame button{
+    font-size: 1.75em;
+}
+footer p{
+    font-size: 1em;
+    text-align: center;
+    background-color: #ecf0f2d9;
+    height: 50px;
+}
+
+@media (min-width: 740px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    .sobre-mi .container{
+        display: flex;
+    }
+    .sobre-mi .texto{
+        padding: 0px 30px;
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .sobre-mi .texto p{
+        margin-top: 40px;
+    }
+    .sobre-mi .img-container{
+        background-image: url(./aaa.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    }
+    .habilidades .tecnologias{
+        display: flex;
+        justify-content: center;
+    }
+    .habilidades .carta{
+        padding: 30px 50px;
+        height: 30%;
+    }
+    .contactame ul {
+        display: flex;
+        justify-content: center;
+    }
+}
