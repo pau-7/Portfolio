@@ -10,7 +10,8 @@ ul{
     list-style: none;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Bowlby One', cursive;
+font-family: 'Poppins', sans-serif;
 }
 h1{font-size: 3.5em;}
 h2{font-size: 2.5em;}
@@ -66,24 +67,24 @@ header a{
 header a:hover{
     color: blueviolet;
 }
-.sobre-mi .container{
+#sobre-mi .container{
     /* background-color: #9BA4B5; */
     text-align: center;
     padding: 200px 12px;
 }
 
-.habilidades{
+#habilidades{
     background-color: #24596c;
     color: white;
     text-align: center;
 }
-.habilidades .container{
+#habilidades .container{
     padding: 100px 12px;
 }
-.habilidades p{
+#habilidades p{
     display: none;
 }
-.habilidades h2{
+#habilidades h2{
     margin-top: 0;
     font-size: 3.2em;
 }
@@ -119,20 +120,20 @@ header a:hover{
     )
     ,url(./port4.jpg);
 }
-.contactame .container{
+#contactame .container{
     text-align: center;
     background-color: #9BA4B5;
     height: 50vh;
 }
-.contactame h2{
+#contactame h2{
     color: #24596c;
     padding-top: 45px;
 }
-.contactame ul{
+#contactame ul{
     margin: 12px 10px;
     font-weight: bold;
 }
-.contactame button{
+#contactame button{
     font-size: 1.75em;
 }
 footer p{
@@ -156,10 +157,10 @@ footer p{
         padding-bottom: 0;
         padding-right: 20px;
     }
-    .sobre-mi .container{
+    #sobre-mi .container{
         display: flex;
     }
-    .sobre-mi .texto{
+    #sobre-mi .texto{
         padding: 0px 30px;
         width: 50%;
         text-align: initial;
@@ -169,25 +170,25 @@ footer p{
         justify-content: center;
         padding-left: 50px;
     }
-    .sobre-mi .texto p{
+    #sobre-mi .texto p{
         margin-top: 40px;
     }
-    .sobre-mi .img-container{
+    #sobre-mi .img-container{
         background-image: url(./aaa.jpg);
     background-position: center center;
     background-size: cover;
     height: 500px;
     width: 50%;
     }
-    .habilidades .tecnologias{
+    #habilidades .tecnologias{
         display: flex;
         justify-content: center;
     }
-    .habilidades .carta{
+    #habilidades .carta{
         padding: 30px 50px;
         height: 30%;
     }
-    .contactame ul {
+    #contactame ul {
         display: flex;
         justify-content: center;
     }
