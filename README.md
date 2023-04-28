@@ -1,2 +1,2 @@
 # Portfolio
-Este proyecto es un portafolio personal creado con HTML y CSS.  Utilicé Flexbox y Grid para crear un diseño responsive y adaptable a diferentes dispositivos. En mi portafolio, así como mi información de contacto para que puedan contactarme. 
+This project is a personal portfolio created with HTML and CSS. I used Flexbox and Grid to create a responsive and adaptable design for different devices. My portfolio contains contact information.
