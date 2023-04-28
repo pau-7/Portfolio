@@ -143,7 +143,7 @@ footer p{
     height: 50px;
 }
 
-@media (min-width: 740px){
+@media (min-width: 720px){
     header{
         position: fixed;
         width: 100%;
@@ -173,12 +173,12 @@ footer p{
     #sobre-mi .texto p{
         margin-top: 40px;
     }
-    #sobre-mi .img-container{
-        background-image: url(./aaa.jpg);
+     img{
     background-position: center center;
     background-size: cover;
     height: 500px;
     width: 50%;
+    border-radius:15px;
     }
     #habilidades .tecnologias{
         display: flex;
