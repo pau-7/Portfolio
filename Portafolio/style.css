@@ -72,7 +72,11 @@ header a:hover{
     text-align: center;
     padding: 200px 12px;
 }
-
+img{
+    width: 70vw;
+    max-width: 1000px;
+    min-width: 200px;
+} 
 #habilidades{
     background-color: #24596c;
     color: white;
@@ -159,6 +163,7 @@ footer p{
     }
     #sobre-mi .container{
         display: flex;
+        justify-content: center;
     }
     #sobre-mi .texto{
         padding: 0px 30px;
@@ -173,12 +178,14 @@ footer p{
     #sobre-mi .texto p{
         margin-top: 40px;
     }
-     img{
+    img{
     background-position: center center;
     background-size: cover;
     height: 500px;
     width: 40vw;
     border-radius:15px;
+    max-width: 800px;
+    margin-left: 3em;
     }
     #habilidades .tecnologias{
         display: flex;
