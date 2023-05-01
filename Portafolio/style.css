@@ -34,7 +34,7 @@ button:hover{
     background-color: #799cae;
 }
 .container{
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: auto;
 }
 header{
@@ -123,7 +123,7 @@ header a:hover{
 #contactame .container{
     text-align: center;
     background-color: #9BA4B5;
-    height: 50vh;
+    height: 60vh;
 }
 #contactame h2{
     color: #24596c;
@@ -185,7 +185,7 @@ footer p{
         justify-content: center;
     }
     #habilidades .carta{
-        padding: 30px 50px;
+        padding: 30px 20px;
         height: 30%;
     }
     #contactame ul {
